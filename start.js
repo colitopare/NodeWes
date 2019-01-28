@@ -24,6 +24,7 @@ mongoose.connection.on('error', (err) => {
 // et dès que vous importerez vos modèles, 
 // MongoDB le saura tout au long de votre application.
 require('./models/Store');
+require('./models/User');
 
 // Start notre app!
 const app = require('./app');
